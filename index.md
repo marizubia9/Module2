@@ -1,37 +1,60 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assigment Solution for Module 2</title>
+	<link href='module2-solution/css/module_2.css' rel='stylesheet' type='text/css'>
+</head>
 
-You can use the [editor on GitHub](https://github.com/marizubia9/Module2/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<body>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<div class="container">
 
-```markdown
-Syntax highlighted code block
+<div class="row">
 
-# Header 1
-## Header 2
-### Header 3
+<h1>Our Menu</h1>
 
-- Bulleted
-- List
+  <div class="col-lg-4">
+  	<div class="item">
+  	  	<div class="title" id="Chicken">
+  
 
-1. Numbered
-2. List
+  	<p>Chicken</p>
+  </div>
 
-**Bold** and _Italic_ and `Code` text
+  	<div class="text">
+  	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+  </div>
+  </div>
+  </div>
+   <div class="col-lg-4">
+   	<div class="item">
+	<div class="title" id="Beef">
+   	
 
-[Link](url) and ![Image](src)
-```
+  	<p>Beef</p>
+  	  </div>
+  	  <div class="text">
+  	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type ands scrambled it to make a type specimen book.</p>
+  </div>
+  </div>
+  </div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+   <div class="col-lg-4 col-md-12">
+   		<div class="item">
+   		<div class="title" id="Sushi">
+	
+  	<p>Sushi</p>
+  	  </div>
+  	  <div class="text">
+  	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+  </div>
+  </div>
 
-### Jekyll Themes
+  </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/marizubia9/Module2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</div>
+</body>
+</html>
